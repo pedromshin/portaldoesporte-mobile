@@ -25,8 +25,7 @@
         "image": "latest"
       },
       "ios": {
-        "image": "latest",
-        "ascAppId": "6612038135"
+        "image": "latest"
       }
     },
     "production": {
@@ -38,13 +37,20 @@
         "image": "latest"
       },
       "ios": {
-        "image": "latest",
-        "ascAppId": "6612038135"
+        "image": "latest"
       }
     }
   },
   "submit": {
-    "preview": {},
-    "production": {}
+    "preview": {
+      "ios": {
+        "ascAppId": "6612038135"
+      }
+    },
+    "production": {
+      "ios": {
+        "ascAppId": "6612038135"
+      }
+    }
   }
 }
