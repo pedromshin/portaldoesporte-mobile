@@ -22,7 +22,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.pedromshin.portaldoesportemobile"
+      "package": "com.pedromshin.portaldoesportemobile",
+      "versionCode": 2
     },
     "web": {
       "bundler": "metro",
