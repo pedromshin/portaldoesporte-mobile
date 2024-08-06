@@ -9,12 +9,24 @@
       "distribution": "internal",
       "env": {
         "EXPO_PUBLIC_ENDPOINT": "https://portaldoesporte-git-dev-pedromshins-projects.vercel.app"
+      },
+      "android": {
+        "image": "latest"
+      },
+      "ios": {
+        "image": "latest"
       }
     },
     "preview": {
       "distribution": "internal",
       "env": {
         "EXPO_PUBLIC_ENDPOINT": "https://portaldoesporte-git-dev-pedromshins-projects.vercel.app"
+      },
+      "android": {
+        "image": "latest"
+      },
+      "ios": {
+        "image": "latest"
       }
     },
     "production": {
