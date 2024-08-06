@@ -4,12 +4,7 @@ import ModalityTable from "./ModalityTable";
 import ModalityForm from "./ModalityForm";
 import ModalitySearch from "./ModalitySearch";
 
-const endpoint =
-  process.env.EXPO_PUBLIC_ENV_VAR === "production"
-    ? process.env.EXPO_PUBLIC_ENDPOINT_PRODUCTION
-    : process.env.EXPO_PUBLIC_ENV_VAR === "preview"
-    ? process.env.EXPO_PUBLIC_ENDPOINT_STAGING
-    : process.env.EXPO_PUBLIC_ENDPOINT_LOCAL;
+const endpoint = process.env.EXPO_PUBLIC_ENDPOINT;
 
 export default function Index() {
   const [data, setData] = useState<string[]>([]);

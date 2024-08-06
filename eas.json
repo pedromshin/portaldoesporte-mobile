@@ -5,12 +5,22 @@
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal"
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_ENDPOINT": "http://localhost:3001"
+      }
     },
     "preview": {
-      "distribution": "internal"
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_ENDPOINT": "https://portaldoesporte-git-dev-pedromshins-projects.vercel.app"
+      }
     },
-    "production": {}
+    "production": {
+      "env": {
+        "EXPO_PUBLIC_ENDPOINT": "https://api.production.com"
+      }
+    }
   },
   "submit": {
     "production": {}
