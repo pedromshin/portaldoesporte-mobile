@@ -7,7 +7,7 @@
       "developmentClient": true,
       "distribution": "internal",
       "env": {
-        "EXPO_PUBLIC_ENDPOINT": "http://localhost:3001"
+        "EXPO_PUBLIC_ENDPOINT": "https://portaldoesporte-git-dev-pedromshins-projects.vercel.app"
       }
     },
     "preview": {
