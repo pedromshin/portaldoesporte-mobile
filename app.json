@@ -23,7 +23,7 @@
         "backgroundColor": "#ffffff"
       },
       "package": "com.pedromshin.portaldoesportemobile",
-      "versionCode": 2
+      "versionCode": 3
     },
     "web": {
       "bundler": "metro",
