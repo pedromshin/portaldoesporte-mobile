@@ -26,6 +26,13 @@
   },
   "submit": {
     "preview": {},
-    "production": {}
+    "production": {
+      "android": {
+        "image": "latest"
+      },
+      "ios": {
+        "image": "latest"
+      }
+    }
   }
 }
