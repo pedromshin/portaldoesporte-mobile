@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { StyleSheet, View, ScrollView } from "react-native";
+import { StyleSheet, Text, ScrollView } from "react-native";
 import ModalityTable from "./ModalityTable";
 import ModalityForm from "./ModalityForm";
 import ModalitySearch from "./ModalitySearch";
 
 const endpoint = process.env.EXPO_PUBLIC_ENDPOINT;
-
-console.log(endpoint);
 
 export default function Index() {
   const [data, setData] = useState<string[]>([]);
@@ -43,6 +41,7 @@ export default function Index() {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
+      <Text>Endpoint: {endpoint}</Text>
       <ModalitySearch onSearch={handleSearch} />
       <ModalityTable data={data} onDelete={handleDelete} />
       <ModalityForm onFormSubmit={fetchData} />
