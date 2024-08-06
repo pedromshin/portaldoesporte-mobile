@@ -21,12 +21,7 @@
       "autoIncrement": true,
       "env": {
         "EXPO_PUBLIC_ENDPOINT": "https://portaldoesporte-mtofoda.vercel.app"
-      }
-    }
-  },
-  "submit": {
-    "preview": {},
-    "production": {
+      },
       "android": {
         "image": "latest"
       },
@@ -34,5 +29,9 @@
         "image": "latest"
       }
     }
+  },
+  "submit": {
+    "preview": {},
+    "production": {}
   }
 }
