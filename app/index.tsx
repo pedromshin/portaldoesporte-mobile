@@ -11,8 +11,6 @@ const endpoint =
     ? process.env.EXPO_PUBLIC_ENDPOINT_STAGING
     : process.env.EXPO_PUBLIC_ENDPOINT_LOCAL;
 
-console.log(endpoint);
-
 export default function Index() {
   const [data, setData] = useState<string[]>([]);
 
