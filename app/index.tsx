@@ -5,11 +5,13 @@ import ModalityForm from "./ModalityForm";
 import ModalitySearch from "./ModalitySearch";
 
 const endpoint =
-  process.env.REACT_APP_ENV_VAR === "production"
-    ? process.env.REACT_APP_ENDPOINT_PRODUCTION
-    : process.env.REACT_APP_ENV_VAR === "preview"
-    ? process.env.REACT_APP_ENDPOINT_STAGING
-    : process.env.REACT_APP_ENDPOINT_LOCAL;
+  process.env.EXPO_PUBLIC_ENV_VAR === "production"
+    ? process.env.EXPO_PUBLIC_ENDPOINT_PRODUCTION
+    : process.env.EXPO_PUBLIC_ENV_VAR === "preview"
+    ? process.env.EXPO_PUBLIC_ENDPOINT_STAGING
+    : process.env.EXPO_PUBLIC_ENDPOINT_LOCAL;
+
+console.log(endpoint);
 
 export default function Index() {
   const [data, setData] = useState<string[]>([]);

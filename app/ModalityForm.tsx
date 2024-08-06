@@ -11,11 +11,11 @@ export default function ModalityForm({
   const [athletes, setAthletes] = useState("");
 
   const endpoint =
-    process.env.REACT_APP_ENV_VAR === "production"
-      ? process.env.REACT_APP_ENDPOINT_PRODUCTION
-      : process.env.REACT_APP_ENV_VAR === "preview"
-      ? process.env.REACT_APP_ENDPOINT_STAGING
-      : process.env.REACT_APP_ENDPOINT_LOCAL;
+    process.env.EXPO_PUBLIC_ENV_VAR === "production"
+      ? process.env.EXPO_PUBLIC_ENDPOINT_PRODUCTION
+      : process.env.EXPO_PUBLIC_ENV_VAR === "preview"
+      ? process.env.EXPO_PUBLIC_ENDPOINT_STAGING
+      : process.env.EXPO_PUBLIC_ENDPOINT_LOCAL;
 
   const handleSubmit = async () => {
     const url = id ? `${endpoint}/modality/${id}` : `${endpoint}/modality`;
