@@ -26,9 +26,7 @@
       },
       "ios": {
         "image": "latest",
-        "ios": {
-          "ascAppId": "6612038135"
-        }
+        "ascAppId": "6612038135"
       }
     },
     "production": {
@@ -41,9 +39,7 @@
       },
       "ios": {
         "image": "latest",
-        "ios": {
-          "ascAppId": "6612038135"
-        }
+        "ascAppId": "6612038135"
       }
     }
   },
