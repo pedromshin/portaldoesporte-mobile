@@ -5,7 +5,7 @@ import ModalityForm from "./ModalityForm";
 import ModalitySearch from "./ModalitySearch";
 
 const endpoint = process.env.EXPO_PUBLIC_ENDPOINT;
-
+//
 export default function Index() {
   const [data, setData] = useState<string[]>([]);
 

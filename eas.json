@@ -1,6 +1,7 @@
 {
   "cli": {
-    "version": ">= 10.2.2"
+    "version": ">= 10.2.2",
+    "appVersionSource": "remote"
   },
   "build": {
     "development": {
@@ -8,22 +9,41 @@
       "distribution": "internal",
       "env": {
         "EXPO_PUBLIC_ENDPOINT": "https://portaldoesporte-git-dev-pedromshins-projects.vercel.app"
+      },
+      "android": {
+        "image": "latest"
+      },
+      "ios": {
+        "image": "latest"
       }
     },
     "preview": {
       "distribution": "internal",
       "env": {
         "EXPO_PUBLIC_ENDPOINT": "https://portaldoesporte-git-dev-pedromshins-projects.vercel.app"
+      },
+      "android": {
+        "image": "latest"
+      },
+      "ios": {
+        "image": "latest"
       }
     },
     "production": {
       "autoIncrement": true,
       "env": {
         "EXPO_PUBLIC_ENDPOINT": "https://portaldoesporte-mtofoda.vercel.app"
+      },
+      "android": {
+        "image": "latest"
+      },
+      "ios": {
+        "image": "latest"
       }
     }
   },
   "submit": {
+    "preview": {},
     "production": {}
   }
 }
